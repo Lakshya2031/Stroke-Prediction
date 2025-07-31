@@ -6,7 +6,7 @@ import folium
 from streamlit_folium import st_folium
 
 # Load trained model
-model = pickle.load(open("D:/hs/model23.pkl", "rb"))  # Use relative path for portability
+model = pickle.load(open("model23.pkl", "rb"))  # Use relative path for portability
 
 # Get coordinates from pincode using OpenStreetMap
 def get_location_osm(pincode):

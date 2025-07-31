@@ -54,7 +54,7 @@ def plot_hospitals_on_map(lat, lon, hospitals):
     return m
 
 # ---- Streamlit UI ----
-st.title("🩺 Stroke Risk Predictor + Nearby Hospital Locator")
+st.title(" Stroke Risk Predictor + Nearby Hospital Locator")
 
 st.write("### Enter your health details below:")
 

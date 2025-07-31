@@ -5,4 +5,4 @@ scikit-learn
 requests
 folium
 streamlit-folium
-pickle5
+pickle
